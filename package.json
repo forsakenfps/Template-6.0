@@ -1,0 +1,27 @@
+{
+  "name": "pcf-project-custom-css",
+  "version": "1.0.0",
+  "description": "PCF control with custom CSS (no external imports)",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start",
+    "start:watch": "pcf-scripts start watch",
+    "refreshTypes": "pcf-scripts refreshTypes"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.130",
+    "@types/powerapps-component-framework": "^1.3.16",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "pcf-scripts": "^1",
+    "pcf-start": "^1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
+
